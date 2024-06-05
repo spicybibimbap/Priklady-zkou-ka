@@ -12,9 +12,8 @@ public class ExampleEvaluator {
                 case "+":
                     expectedResult = example.getA() + example.getB();
                     break;
-                // Pokud by byly i jiné operace, přidejte je sem
                 default:
-                    continue; // Přeskočíme neznámé operace
+                    continue;
             }
 
             if (expectedResult != example.getVysl()) {
